@@ -13,6 +13,7 @@
 		ED407B00277B9E6F006CFD77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED407AFE277B9E6F006CFD77 /* Main.storyboard */; };
 		ED407B02277B9E72006CFD77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED407B01277B9E72006CFD77 /* Assets.xcassets */; };
 		ED407B05277B9E72006CFD77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED407B03277B9E72006CFD77 /* LaunchScreen.storyboard */; };
+		ED407B0D277B9EA7006CFD77 /* PersonsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED407B0C277B9EA7006CFD77 /* PersonsInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		ED407B01277B9E72006CFD77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED407B04277B9E72006CFD77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED407B06277B9E72006CFD77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED407B0C277B9EA7006CFD77 /* PersonsInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				ED407AF8277B9E6F006CFD77 /* AppDelegate.swift */,
 				ED407AFA277B9E6F006CFD77 /* SceneDelegate.swift */,
 				ED407AFC277B9E6F006CFD77 /* ViewController.swift */,
+				ED407B0C277B9EA7006CFD77 /* PersonsInfo.swift */,
 				ED407AFE277B9E6F006CFD77 /* Main.storyboard */,
 				ED407B01277B9E72006CFD77 /* Assets.xcassets */,
 				ED407B03277B9E72006CFD77 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				ED407AFD277B9E6F006CFD77 /* ViewController.swift in Sources */,
 				ED407AF9277B9E6F006CFD77 /* AppDelegate.swift in Sources */,
+				ED407B0D277B9EA7006CFD77 /* PersonsInfo.swift in Sources */,
 				ED407AFB277B9E6F006CFD77 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
