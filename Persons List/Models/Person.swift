@@ -11,6 +11,13 @@ struct Person {
     let email: String
     let phones: String
     
+    var title: String {
+        "\(name) \(surname)"
+    }
+    
+}
+
+extension Person {
     static func getInfoAboutPerson() -> [Person] {
         var persons: [Person] = []
         
@@ -23,10 +30,11 @@ struct Person {
             
             persons.append(person)
         }
+        return persons
         
-    return persons
-        }
-            
-        }
+}
+
+
     
 
+}

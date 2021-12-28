@@ -8,6 +8,7 @@
 import UIKit
 
 class PersonsListWithSectionTableViewController: UITableViewController {
+    var person: [Person]!
 
     override func viewDidLoad() {
         super.viewDidLoad()
