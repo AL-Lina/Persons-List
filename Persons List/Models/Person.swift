@@ -11,10 +11,6 @@ struct Person {
     let email: String
     let phones: String
     
-    var title: String {
-        "\(name) \(surname)"
-    }
-    
 }
 
 extension Person {

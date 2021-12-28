@@ -10,6 +10,12 @@ import UIKit
 class TabBarViewController: UITabBarController {
     
     private var person = Person.getInfoAboutPerson()
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+
+    }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let tabBarController = segue.destination as? UITabBarController else { return }

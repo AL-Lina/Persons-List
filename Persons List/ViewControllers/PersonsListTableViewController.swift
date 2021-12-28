@@ -19,13 +19,20 @@ class PersonsListTableViewController: UITableViewController {
     // MARK: - Table view data source
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        0
+        person.count
     }
 
    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "nameAndSurname", for: indexPath)
 
+        let nameAndS = person[indexPath.row]
+        
+        var content = cell.defaultContentConfiguration()
+        content.text = nameAndS.name
+        content.secondaryText = nameAndS.surname
+        
+        cell.contentConfiguration = content
         return cell
     }
    
