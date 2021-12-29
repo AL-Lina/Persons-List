@@ -29,9 +29,7 @@ class PersonsListTableViewController: UITableViewController {
         let nameAndS = person[indexPath.row]
         
         var content = cell.defaultContentConfiguration()
-        content.text = nameAndS.name
-        content.secondaryText = nameAndS.surname
-        
+        content.text = nameAndS.name + " " + nameAndS.surname
         cell.contentConfiguration = content
         return cell
     }

@@ -17,6 +17,7 @@
 		ED407B16277BBA78006CFD77 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED407B15277BBA78006CFD77 /* TabBarViewController.swift */; };
 		ED407B18277BBAEA006CFD77 /* PersonsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED407B17277BBAEA006CFD77 /* PersonsListTableViewController.swift */; };
 		ED407B1A277BBB2A006CFD77 /* PersonsListWithSectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED407B19277BBB2A006CFD77 /* PersonsListWithSectionTableViewController.swift */; };
+		EDAA093D277CE6EC00B14581 /* PhoneAndMailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAA093C277CE6EC00B14581 /* PhoneAndMailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		ED407B15277BBA78006CFD77 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		ED407B17277BBAEA006CFD77 /* PersonsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsListTableViewController.swift; sourceTree = "<group>"; };
 		ED407B19277BBB2A006CFD77 /* PersonsListWithSectionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsListWithSectionTableViewController.swift; sourceTree = "<group>"; };
+		EDAA093C277CE6EC00B14581 /* PhoneAndMailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAndMailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				ED407B15277BBA78006CFD77 /* TabBarViewController.swift */,
 				ED407B17277BBAEA006CFD77 /* PersonsListTableViewController.swift */,
 				ED407B19277BBB2A006CFD77 /* PersonsListWithSectionTableViewController.swift */,
+				EDAA093C277CE6EC00B14581 /* PhoneAndMailViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 				ED407AF9277B9E6F006CFD77 /* AppDelegate.swift in Sources */,
 				ED407B1A277BBB2A006CFD77 /* PersonsListWithSectionTableViewController.swift in Sources */,
 				ED407B0D277B9EA7006CFD77 /* PersonsInfo.swift in Sources */,
+				EDAA093D277CE6EC00B14581 /* PhoneAndMailViewController.swift in Sources */,
 				ED407B16277BBA78006CFD77 /* TabBarViewController.swift in Sources */,
 				ED407B18277BBAEA006CFD77 /* PersonsListTableViewController.swift in Sources */,
 				ED407AFB277B9E6F006CFD77 /* SceneDelegate.swift in Sources */,
