@@ -11,7 +11,7 @@ class PhoneAndMailViewController: UIViewController {
     @IBOutlet weak var phoneLabel: UILabel!
     
     @IBOutlet weak var mailLabel: UILabel!
-    var person: [Person]!
+    var person: Person!
 
     override func viewDidLoad() {
         super.viewDidLoad()
